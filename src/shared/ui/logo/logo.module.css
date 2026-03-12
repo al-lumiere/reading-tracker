@@ -1,0 +1,22 @@
+.logo {
+  display: flex;
+  text-decoration: none;
+  font-family: var(--accent-font-family);
+  color: var(--text-color);
+  font-style: normal;
+  font-size: 45px;
+  line-height: 51px;
+  font-weight: 400;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.logo:focus-visible {
+  text-decoration-color: var(--text-color);
+}
+
+.logo:active {
+  color: var(--condition-color);
+}
