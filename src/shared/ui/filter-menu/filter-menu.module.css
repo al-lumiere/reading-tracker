@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  align-items: bottom;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  font-family: var(--accent-font-family), sans-serif;
+  color: var(--text-color);
+}
+
+.text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 46px;
+}
+
+.quality {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 24px;
+}
+
+.container:focus-visible {
+  box-shadow: 0px 0px 10px var(--condition-color);
+}
+
+.text:hover {
+  cursor: pointer;
+}
+
+.text:active {
+  color: var(--condition-color);
+}

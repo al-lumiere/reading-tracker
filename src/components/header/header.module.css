@@ -9,7 +9,7 @@
 }
 
 .search {
-  width: 421px;
+  min-width: 421px;
   margin-left: 10px;
   margin-top: 9px;
 }
